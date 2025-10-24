@@ -25,21 +25,8 @@ int main()
 {
 	int a, b, d[10], e, k, p, n;
 	scanf("%i%i", &a, &b);
-	if (b == 0)
-		return 0;
 	do
 	{
-/*
-		for (int i = 0; i < 10; i++)
-			d[i] = 0;
-		p = a;
-		while (p <= b)
-			count(p++, d, 1);
-		printf("%i", d[0]);
-		for (int i = 1; i < 10; i++)
-			printf(" %i", d[i]);
-		printf("\n");
-*/
 		for (int i = 0; i < 10; i++)
 			d[i] = 0;
 		while (a <= b)
