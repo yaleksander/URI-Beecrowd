@@ -1,3 +1,8 @@
+/*
+ *	https://judge.beecrowd.com/pt/problems/view/3255
+ *	To the author of this problem, Jon Marius Venstad: I hate you.
+ */
+
 #include <iostream>
 #include <vector>
 
