@@ -12,12 +12,12 @@ int ord(int n)
 	return e;
 }
 
-void count(int num, int d[10], int i)
+void count(int n, int d[10], int i)
 {
-	while (num > 0)
+	while (n > 0)
 	{
-		d[num % 10] += i;
-		num /= 10;
+		d[n % 10] += i;
+		n /= 10;
 	}
 }
 
