@@ -23,7 +23,7 @@ void count(int num, int d[10], int i)
 
 int main()
 {
-	int a, b, d[10], e, k, p, n;
+	int a, b, d[10], e, k, p;
 	scanf("%i%i", &a, &b);
 	do
 	{
